@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: teal;
+}
+.wrapper{
+    width: 605px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px 30px 25px;
+}
+.wrapper h1{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+.wrapper .content{
+    margin: 35px 0;
+}
+.content .quote-text{
+    display: flex;
+    justify-items: center;
+}
+.quote-text i{
+    font-size: 15px;
+}
+.quote-text i:first-child{
+    margin: 3px 10px 0 0;
+}
+.quote-text i:last-child{
+    margin: 0 0 3px 10px;
+    display: flex;
+    align-items: flex-end;
+}
+.quote-text .quote {
+    font-size: 22px;
+    text-align: center;
+    word-break: break-all;
+}
+.content .author{
+    display: flex;
+
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+.authors span:first-child{
+    margin: -7px 5px 0 0;
+    font-family: monospace;
+}
+.wrapper .buttons{
+    border-top: 1px solid #ccc;
+}
+.buttons .features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.features ul{
+    display: flex;
+}
+.features ul li{
+    list-style: none;
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid teal;
+    display: flex;
+    color: teal;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.features ul li:hover{
+    background-color: teal;
+    color: #fff;
+}
+.features button{
+    border: none;
+    outline: none;
+    padding: 13px;
+    color: #fff;
+    cursor: pointer;
+    font-style: 16px;
+    border-radius: 30px;
+    background-color: teal;
+}
+button.loading{
+    opacity: 0.7;
+    pointer-events: none;
+}
